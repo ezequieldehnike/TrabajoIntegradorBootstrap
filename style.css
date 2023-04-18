@@ -6,6 +6,7 @@
 body {
     width: 100vw;
     background: #73799b;
+    overflow-x: hidden;
 }
 
 /*NABVAR*/
@@ -27,24 +28,8 @@ body {
 
 /*hONOLULU*/
 
-.buenos-aires {
-    width: 90vw;
-    height: auto;
-}
-.honolulu {
-    width: 50vw;
-}
-
 
 /*FORMULARIO*/
 
-
-.col {
-    padding: 0%;
-}
-
-.row-nombre {
-width: 100vw;
-}
 
 /*FOOTER*/

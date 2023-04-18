@@ -11,119 +11,111 @@
 <body>
 
     <!-- NABVAR -->
-    <nav class="navbar bg-body-terciary">
+    <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img  src="Files/codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="#">
+            <img src="Files/codoacodo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             Bootstrap
-            </a>
+        </a>
+        <ul class="nav nav-underline ml-auto">
+            <li class="nav-item">
+            <a class="nav-link active" data-target="conferencia">La Conferencia</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-target="oradores">Los Oradores</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-target="fecha">El Lugar y la Fecha</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" data-target="conviertete">Conviértete en Orador</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link green" href="#">Comprar Tickets</a>
+            </li>
+        </ul>
         </div>
-
-        <ul class="nav nav-underline">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">La Conferencia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Los oradores</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">conviértete en orador</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link green" href="#">Comprar tickets</a>
-            </li>
-            </ul>
     </nav>
 
     <!-- PRINCIPAL -->
-    <section class = "container-fluid image" style ="padding:0%">
-        
-        <div class = "div-image">
-            <img class = "buenos-aires" src="Files/ba3.jpg" alt="buenos aires">
-            
-            <div class="image-bg">     
-                <h1 class = "text-image">Conf buenos aires</h1>
-                <p class="text-conferencia">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra 
-                comunidad el conocimiento y experincia de los expertos que estan creando el futuro de Internet. 
-                Ven a conocer a miembros del evento,a otros estudiantes de Codo a Codo y los ortadores de 
-                primer nivel que tenemos para ti. Te esperamos!
-                </p>
-                <button type="button" class="btn btn-outline-dark">Quiero ser Orador</button>
-                <button type="button" class="btn btn">Comprar tickets #55A42E</button>
+    <section class="container-fluid position-relative clearfix mb-5 p-0">
+        <img class="img-fluid" src="Files/ba3.jpg" alt="buenos_aires">
+        <article class="conferencia-articulo w-100 h-100 pe-3 pe-md-4 pe-lg-5 pt-5 pb-3">
+            <h1>Conf Bs As</h1>
+            <p class="d-inline-block col-11 col-sm-9 col-md-6 col-lg-4">
+                Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el 
+                conocimiento y experiencia de los expertos que están creando el futuro de internet. 
+                Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer 
+                nivel que tenemos para ti.  ¡Te esperamos!</p>
+            <div class="container-fluid clearfix p-0">
+                <a class="btn btn-primary float-end ms-2 mb-2">Comprar tickets</a>
+                <a href="#conviertete" class="btn btn-outline-light float-end">Quiero ser orador</a>
             </div>
-        </div>
+        </article>
     </section>
 
     <!-- CARD -->
-    <div>
+    <div class="container-fluid row">
         <div class="text-oradores">
             <p class="up">CONOCE A LOS</p>
             <p class="spam">ORADORES</p>
         </div>
-
-        <div class="card" style="width: 18rem;">
-            
-            <img src="Files/steve.jpg" class="card-img-top" alt="...">
-            <span class="badge text-bg-warning">JavaScript</span>
-            <span class="badge text-bg-info">React</span>
-            <div class="card-body">
-                <h5 class="card-title">Steve jobs</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi doloribus explicabo quos eaque 
-                    harum excepturi optio deleniti quis minus? Quam non quae neque voluptatum quo delectus, ullam dolorem ea.</p>
+    
+        <div class="col-lg-4 mb-5 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="Files/steve.jpg" class="card-img-top img-fluid" alt="steve_jobs">
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-info">React</span>
+                <div class="card-body">
+                    <h5 class="card-title">Steve Jobs</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi doloribus explicabo quos eaque harum excepturi optio deleniti quis minus? Quam non quae neque voluptatum quo delectus, ullam dolorem ea.</p>
+                </div>
             </div>
-        
         </div>
 
-        <div class="card" style="width: 18rem;">
-            
-            <img src = "Files/bill.jpg" class="card-img-top" alt="...">
-            <span class="badge text-bg-warning">JavaScript</span>
-            <span class="badge text-bg-info">React</span>
-            <div class="card-body">
-                <h5 class="card-title">Bill gates</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod in, molestias, laboriosam recusandae dicta
-                    impedit debitis minus tempora doloremque reprehenderit obcaecati sint perspiciatis, provident ab nesciunt laborum porro voluptatibus accusamus!</p>
+        <div class="col-lg-4 mb-5 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="Files/bill.jpg" class="card-img-top img-fluid" alt="bill_gates">
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-info">React</span>
+                <div class="card-body">
+                    <h5 class="card-title">Bill Gates</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod in, molestias, laboriosam recusandae dicta impedit debitis minus tempora doloremque reprehenderit obcaecati sint perspiciatis, provident ab nesciunt laborum porro voluptatibus accusamus!</p>
+                </div>
             </div>
-        
         </div>
 
-        <div class="card" style="width: 18rem;">
-            
-            <img src="Files/ada.jpeg" class="card-img-top" alt="...">
-            <span class="badge text-bg-secondary">Negocios</span>
-            <span class="badge text-bg-danger">Startups</span>
-            <div class="card-body">
-                <h5 class="card-title">Ada Lovelace</h5>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis totam aspernatur libero tempore cupiditate in, fugiat 
-                    fuga quibusdam quam voluptatibus debitis laboriosam nostrum. Delectus, dignissimos reprehenderit expedita aliquam quibusdam odit.</p>
+        <div class="col-lg-4 mb-5 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="Files/ada.jpeg" class="card-img-top img-fluid" alt="ada_lovelace">
+                <span class="badge text-bg-secondary">Negocios</span>
+                <span class="badge text-bg-danger">Startups</span>
+                <div class="card-body">
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis totam aspernatur libero tempore cupiditate in, fugiat fuga quibusdam quam voluptatibus debitis laboriosam nostrum. Delectus, dignissimos reprehenderit expedita aliquam quibusdam odit.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- HONOLULU -->
-    <div>
-        <div class="row">
-            <div class="col">
-                <img class = "honolulu" src="Files/honolulu.jpg" alt="">
-            </div>
-            <div class="col">
-                <h2 class="octubre-text">Bs As - Octubre #3D3C39</h2>
-                <p class="provincia">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los estados Unidos.
-                Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiera al
-                area urbana de la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudaad-condado consolidada 
-                que cubre toda la ciudad (aproximadamante 600 km2 de superficie).
-                </p>
-                <button type="button" class="btn">Conocé más</button>
-            </div>
+
+    <div id = "honolulu" class="container-fluid row clearfix m-0 p-0 mb-5">
+            <img class = "honolulu img-fluid p-0 col-12 col-lg-6" src="Files/honolulu.jpg" alt="honolulu_image">
+        <div class="col p-3 col-12 col-lg-6">
+            <h2 class="octubre-text">Bs As - Octubre #3D3C39</h2>
+            <p class="provincia">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los estados Unidos.
+            Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiera al
+            area urbana de la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudaad-condado consolidada 
+            que cubre toda la ciudad (aproximadamante 600 km2 de superficie).
+            </p>
+            <button type="button" class="btn">Conocé más</button>
         </div>
     </div>
 
     <!-- FORMULARIO -->
 
-    <section class="orador">
+    <section class="orador container-fluid text-center mb-5 d-flex align-items-center justify-content-center">
         <div class="text-conviertete">
             <p class="up-orador">CONVIÉRTE EN UN</p>
             <p class="spam-orador">ORADOR</p>
@@ -140,8 +132,8 @@
                 </div>
             </form>
 
-            <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Sobre qué quieres hablar?</textarea>
+            <div class="form-group col-12 mb-2">
+                <textarea class="form-control mb-2" id="exampleFormControlTextarea1" cols ="30" rows="6" placeholder="Cuentanos de qué quieres hablar!"></textarea>
                 <p class="form-text">Recuerda incluir un titulo para tu charla</p>
             </div>
 
@@ -154,24 +146,23 @@
 
     <!-- FOOTER-->
 
-    <footer class="text-center text-white" style="background-color: #334D5A">
-        
+    <footer class="text-center text-white" style="background-color: #334D5A mt-auto">
         <div class="container">
-            
+
             <div class="row text-center d-flex justify-content-center pt-5">
-                
+
                 <div class="col-md">
                     <p class="text-footer">Preguntas Frecuentes</p>
                 </div>
-                
+
                 <div class="col-md">
                     <p class="text-footer">Contáctanos</p>
                 </div>
-                
+
                 <div class="col-md">
                     <p class="text-footer">Prensa</p>
                 </div>
-                
+
                 <div class="col-md">
                     <p class="text-footer">Conferencias</p>
                 </div>
@@ -179,7 +170,7 @@
                 <div class="col-md">
                     <p class="text-footer">Términos y condiciones</p>
                 </div>
-
+                
                 <div class="col-md">
                     <p class="text-footer">Privacidad</p>
                 </div>
