@@ -69,14 +69,36 @@ body {
     
 }
 
+.boton-conocer:hover {
+    background-color: #9e9a5c;
+}
+
 /*FORMULARIO*/
 .spam-orador {
     font-size: 1.9rem;
     font-weight: bold;
 }
 
+.boton-enviar {
+background-color:#A6C516;
+}
+
+.boton-enviar:hover {
+    background-color: #cef521;
+}
+
 /*FOOTER*/
+
+.container-footer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 footer{
     background-color: #344F5F;
 }
+
+.text-footer:hover {
+    color: #000000;
+}
+
