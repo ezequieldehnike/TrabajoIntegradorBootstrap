@@ -10,9 +10,28 @@ body {
 
 /*NABVAR*/
 
+.container-fluid {
+    margin-right: 5rem;
+}
 .navbar{
     display: flex;
     flex-direction: row;
+    background-color: #3D3C39;
+}
+
+.navbar-brand {
+    margin-left: 3rem;
+}
+.nav-link {
+    color: #A09988;
+}
+
+.green{
+    color: #54A12F;
+}
+
+a:hover {
+    color: #fff; 
 }
 
 /*PRINCIPAL*/
