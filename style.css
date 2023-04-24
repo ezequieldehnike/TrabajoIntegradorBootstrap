@@ -17,22 +17,11 @@ body {
 .navbar{
     display: flex;
     flex-direction: row;
-    background-color: #3D3C39;
+    background-color: #383733;
 }
 
 .navbar-brand {
     margin-left: 3rem;
-}
-.nav-link {
-    color: #A09988;
-}
-
-.green{
-    color: #54A12F;
-}
-
-a:hover {
-    color: #fff; 
 }
 
 /*PRINCIPAL*/
@@ -46,12 +35,28 @@ a:hover {
     border: none;
 }
 
-#boton-quiero {
-    border: white;
+#boton-comprar:hover {
+    background: #3cb301;
 }
 
+#boton-quiero {
+    border:1px solid #ffffff;
+}
+
+.conf-bs-as{
+font-size: 3rem;
+}
+
+#text-principal-bsas {
+font-size: 1.3rem;
+}
+
+#boton-quiero:hover {
+    background: #b4af9a;
+}
 .conferencia-articulo {
     margin-right: 5rem;
+    top: 30%;
 }
 
 
@@ -90,7 +95,7 @@ a:hover {
 }
 
 .boton-conocer:hover {
-    background-color: #9e9a5c;
+    background-color: #666559;
 }
 
 /*FORMULARIO*/
