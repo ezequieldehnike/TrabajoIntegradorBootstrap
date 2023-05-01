@@ -127,3 +127,50 @@ footer{
     color: #000000;
 }
 
+@media (max-width: 768px) {
+    
+.nav-link {
+font-size: 0.8rem;
+}   
+.container-fluid {
+    display: flex;
+    margin: 0rem;
+
+}
+.navbar-brand{
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#boton-comprar, #boton-quiero {
+    font-size: 0.7rem;
+}
+
+.conf-bs-as {
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.conferencia-articulo{
+position: relative;
+top: -3rem;
+margin-right: 1.2rem;
+}
+
+#text-principal-bsas {
+    font-size: 0.8rem;
+    position: relative;
+    padding: 0rem;
+}
+
+
+.text-footer {
+    font-size: 0.7rem;
+    margin: -2rem;
+}
+
+
+
+}
